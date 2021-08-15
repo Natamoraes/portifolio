@@ -21,7 +21,7 @@
             <div class="line" id="line3"></div>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="Imagens/bg.jpg" alt="">
             </div>
@@ -36,9 +36,9 @@
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -48,7 +48,7 @@
             </div>
         </aside>
 
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos</h1>
             </div>
@@ -113,6 +113,88 @@
             </div>
         </section>
 
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/proj1.jpg" alt="Imagem de exeplo sobre o projeto">
+                    </div>
+                    <div class="card-info">
+                        <h2>Projeto 1</h2>
+                        <h3>linguagem</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur velit similique quidem modi, praesentium fugit ut, itaque perspiciatis hic nihil facere. Ea placeat libero ducimus obcaecati nobis? At, modi odit.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/proj2.jpg" alt="Imagem de exeplo sobre o projeto">
+                    </div>
+                    <div class="card-info">
+                        <h2>projeto 2</h2>
+                        <h3>linguagem</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam porro consequatur blanditiis debitis mollitia voluptas quam numquam vero libero facilis excepturi aliquid perferendis nam, quis ab reiciendis veritatis esse incidunt.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/proj3.jpg" alt="Imagem de exeplo sobre o projeto">
+                    </div>
+                    <div class="card-info">
+                        <h2>projeto 3</h2>
+                        <h3>linguagem</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut nulla accusamus facere blanditiis aperiam repellat et eligendi tempore tempora, eum incidunt, ut perferendis qui nemo inventore officiis praesentium obcaecati quidem.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left">
+                </div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2021, Natan C. - Todos os direitos reservados.
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-github-alt"></i></a></li>
+                    </ul>  
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 
 </body>
