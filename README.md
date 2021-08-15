@@ -5,5 +5,5 @@ Portifólio de desenvolvimento web
  ## Icones
 - :package: Nova funcionalidade
 - :up: Atualização
-- :beetle: Correção de bug
+- :bulb: Correção de bug
 - :checkered_flag: Release
